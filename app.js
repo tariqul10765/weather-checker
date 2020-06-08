@@ -30,5 +30,8 @@ function showWeather(){
     //windEl.innerHTML=;
     
     }
+
+    
 );
+    inputTextEl.value='';
 }
