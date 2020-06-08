@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+
+}
+#header{
+    text-align: center;
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    margin-bottom: 30px;
+
+}
+input{
+    padding: 10px;
+}
+#header h2{
+    margin-bottom: 30px;
+    color: cadetblue;
+    font-size: 45px;
+    font-weight: 900;
+
+}
+#inputText{
+
+}
+#inputButton{
+
+}
+#main{
+    width: 50%;
+    
+    padding: 20px;
+    border-radius: 7px;
+}
+#icon{
+    float: left;
+    margin-right: 10px;
+    width: 50px;
+}
+#areaName{
+    color: rgb(190, 190, 190);
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+    <!-- for jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- for bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+    crossorigin="anonymous">
+
+    <!-- for css -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">
+        <h2>WEATHER CHECKER</h2>
+        <input type="text" id="inputText">
+        <input type="submit" value="CHECK" id="inputButton">
+    </div>
+
+
+    <div class='container' id="main">
+        <h3 id="areaName"></h3>
+        <h4 id="weather"></h4>
+        <div class="row">
+            <div class="col-sm-6">
+                <img id="icon">
+                <h4 id="temp"></h4>
+                
+            </div>
+            <div class="col-sm-6">
+                <p id="humidity"></p>
+                <p id="wind"></p>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
